@@ -1,0 +1,13 @@
+###DESIGN TEMPLATE#########
+###########################
+done - 0.5h - register page 
+done - 0.5h - login page
+- new project
+- new tasks
+
+###VUE-FRONTEND############
+###########################
+
+
+###BACK-END################
+###########################

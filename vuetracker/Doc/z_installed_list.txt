@@ -1,0 +1,15 @@
+### npm install
+### npm install vue-router
+### npm install vuex 
+### npm install bootstrap bootstrap-vue
+### npm install jquery
+### npm install firebase
+### npm install luxon vue-datetime weekstart
+### npm install uuid
+### npm install babel-polyfill
+### npm install moment
+### npm install moment-precise-range-plugin
+### npm install sass-loader --save-dev
+notification
+
+

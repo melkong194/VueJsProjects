@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://kit.fontawesome.com/169e38946f.js" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		/* .container{
+            min-height: 500px;
+            background-color:cadetblue;
+            padding: 30px;
+            z-index: -1;
+        } */
+		.bg-dark{
+			background-color: #17a2b8!important;
+		}
+	</style>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+</head>
+
+<body>
+	<!-- Navigation -->
+	<!-- <div class="container"> -->
+	<nav class="navbar navbar-expand-md bg-dark bg-dark mb-md-4 justify-content-between">
+		<div class="btn-list">
+			<a class="btn" data-toggle="collapse" href="#btn-list" role="button" aria-expanded="false"
+				aria-controls="collapse123">
+				<span class="fas fa-bars"></span>
+			</a>
+		</div>
+		<!-- <form class="form-inline">
+			<div class="input-group">
+				<input type="text" class="form-control" placeholder="Recipient's username"
+					aria-label="Recipient's username" aria-describedby="basic-addon2">
+				<div class="input-group-append">
+					<span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+				</div>
+			</div>
+		</form> -->
+
+		<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span><i class="fas fa-user-cog"></i></span>
+		</button> -->
+		<div class="btn-menu">
+			<a class="btn navbar-toggler" data-toggle="collapse" href="#btn-menu" role="button" aria-expanded="false"
+				aria-controls="collapse123">
+				<span class="fas fa-user-cog"></span>
+			</a>
+		</div>
+		<div class="mk-dropdown-menu menu-group mb-4">
+			<div class="collapse navbar-collapse" id="btn-menu">
+				<ul class="nav navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Create Project</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contractor_team.html">Manage Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contractor_project.html">Manage Project</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#">
+							Log out</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</nav>
+
+	<!-- Content -->
+	<main class="container">
+
+			<div class="panel panel-info col-xl-12"> 
+				<div class="panel-heading justify-content-between row">
+						<div class="project-name-w col-md-9">
+							<h1 class="panel-title"><span class="project-name ml-4">PROJECT NAME ABC</span></h1>
+						</div>	
+
+						<div class="project-control-board justify-content-end col-md-2">
+							<!-- <button class="btn btn-success btn-project-control"><i class="fas fa-plus-circle"></i></button> -->
+							<button class="btn btn-dark btn-project-control"><i class="fas fa-comment-dots"></i></button>
+						</div>
+				</div> 
+				
+				<div class="panel-body">
+					<div class="project-create-board m-4">
+						<form class="row">							
+							<div class="form-group col-md-12">
+								<label for="exampleInputEmail1">Description and Requirements</label>
+								<p>fsdjahfsjdfa
+									dsfasjfhdasjk<br>
+									safdasjdkfajs
+								</p>
+							</div>
+
+							<div class="form-group col-md-6">
+								<label for="exampleInputEmail1">Project Start</label>
+								<p>13/2/2023</p>
+							</div>
+
+							<div class="form-group col-md-6">
+								<label for="exampleInputEmail1">Project Deadline</label>
+								<p>13/2/2023</p>
+							</div>
+
+							<div class="form-group col-md-6">
+								<label for="exampleInputEmail1">Project Status</label>
+								<p>In Process</p>
+							</div>	
+
+							<div class="form-group col-md-6">
+								<label for="exampleInputEmail1">Project Creator</label>
+								<p>Dennis Beckhamp</p>
+							</div>
+
+							<div class="form-group col-md-6">
+								<label for="exampleInputEmail1">Period Hour Worked</label>
+								<p>In Process</p>
+							</div>	
+
+							<div class="form-group col-md-6">
+								<label for="exampleInputEmail1">Project Hour worked</label>
+								<p>40 hours 15 minutes</p>
+							</div>
+
+							<div class="form-group col-md-6">
+								<!-- <label for="exampleInputEmail1">New Report Task</label> -->
+								<p><button	class="btn btn-success" type="submit">Record check-in</button></p>
+							</div>
+
+							<div class="form-group col-md-6">
+								<!-- <label for="exampleInputEmail1">To complete the project</label> -->
+								<p><button	class="btn btn-danger" type="submit">Request to Verify</button></p>
+							</div>
+						</form>
+
+						<div class="panel panel-success">
+							<div class="panel-heading">Period Time: </div>
+							<table class="table table-hover ">
+								<thead>
+									<tr>
+										<th style="width: 10%">Date</th>
+										<th style="width: 10%" class="text-center">Time in</th>
+										<th style="width: 10%">Date out</th>
+										<th style="width: 15%">Hours</th>
+										<th >Tasks have done</th>
+									</tr>
+								</thead>
+				
+								<tbody>
+									<tr>
+										<td class="text-center"><span class="badge badge-info">Sun, 10/05/2021</span></td>
+										<td>10:21</td>
+										<td>12:21</td>
+										<td><span class="badge badge-default">10 hours 10 minutes</span></td>
+										<td>Lorem ipsum Lorem ipsum Lorem ipsum</td>
+									</tr>
+									
+								</tbody>
+				
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</main>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+	</div>
+</body>
+
+</html>
